@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>guru.springframework</groupId>
-    <artifactId>spring-boot-mongodb</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>NodeMongoDBApp</artifactId>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>spring-boot-mongodb</name>
+    <name>NodeMongoDBApp</name>
     <description>Demo project for Spring Boot and Mongo DB</description>
 
     <parent>

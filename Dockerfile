@@ -1,4 +1,4 @@
 FROM openjdk:8-jre-alpine
-ADD target/spring-boot-mongodb-0.0.1-SNAPSHOT.jar spring-boot-mongodb.jar
+ADD target/NodeMongoDBApp-1.0.jar NodeMongoDBApp.jar
 EXPOSE 8081
-ENTRYPOINT ["java", "-jar", "spring-boot-mongodb.jar"]
+ENTRYPOINT ["java", "-jar", "NodeMongoDBApp.jar"]
