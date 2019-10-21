@@ -15,7 +15,6 @@ import java.util.List;
  */
 @Service
 public class ProductServiceImpl implements ProductService {
-
     private ProductRepository productRepository;
     private ProductFormToProduct productFormToProduct;
 
@@ -24,7 +23,6 @@ public class ProductServiceImpl implements ProductService {
         this.productRepository = productRepository;
         this.productFormToProduct = productFormToProduct;
     }
-
 
     @Override
     public List<Product> listAll() {
@@ -52,7 +50,6 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public Product saveOrUpdateProductForm(ProductForm productForm) {
         Product savedProduct = saveOrUpdate(productFormToProduct.convert(productForm));
-
         System.out.println("Saved Product Id: " + savedProduct.getId());
         return savedProduct;
     }
